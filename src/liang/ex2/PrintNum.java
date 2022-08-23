@@ -15,6 +15,13 @@ class PrintNum implements Runnable {
     public void run() {
         for (int i = 1; i <= lastNum; i++) {
             System.out.print(" " + i);
+            if (i >= 50) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
     }
 }

@@ -6,5 +6,6 @@ public class CustomThread extends Thread {
     @Override
     public void run() {
         // Tell system how to perform this task
+        System.out.println("test");
     }
 }

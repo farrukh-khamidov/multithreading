@@ -13,7 +13,7 @@ class PrintNum implements Runnable {
     @Override
     /** Tell the thread how to run */
     public void run() {
-        Thread thread4 = new Thread(new PrintChar('c', 40));
+        Thread thread4 = new Thread(new PrintChar('c', 4000));
         thread4.start();
         try {
             for (int i = 1; i <= lastNum; i++) {

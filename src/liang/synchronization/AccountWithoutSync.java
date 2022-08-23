@@ -40,16 +40,19 @@ public class AccountWithoutSync {
 
         public void deposit(int amount) {
 //            int newBalance = balance + amount;
-
-            // This delay is deliberately added to magnify the
-            // data-corruption problem and make it easy to see.
+//
+////             This delay is deliberately added to magnify the
+////             data-corruption problem and make it easy to see.
 //            try {
 //                Thread.sleep(5);
 //            } catch (InterruptedException ex) {
 //            }
 
 //            balance = newBalance;
+
+            // lock
             balance += amount;
+            // unlock
         }
     }
 }

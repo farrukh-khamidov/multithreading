@@ -54,6 +54,25 @@ public class AccountWithSyncUsingLock {
             } finally {
                 lock.unlock(); // Release the lock
             }
+
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            lock.lock();
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            /// sadsadsadasdsadsa
+            lock.unlock();
+                        /// sadsadsadasdsadsa
+                        /// sadsadsadasdsadsa
+                        /// sadsadsadasdsadsa
+                        /// sadsadsadasdsadsa
+                        /// sadsadsadasdsadsa
         }
     }
 }
